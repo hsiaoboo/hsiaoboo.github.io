@@ -26,10 +26,14 @@
   
    
     .logo_area {
-        width: 150px;
-        top:50px;
-        left: 20px;
+       
+        top:30px;
+        left: 50%;
+        transform: translateX(-50%);
         /* position: fixed; */
+    }
+    .logo_area img{
+       
     }
     .logo_area a{
         height: 44.5px;
@@ -130,3 +134,15 @@
     }
     
   }
+  @media screen and (max-width: 600px) {
+    html{
+
+        min-width: 600px;
+    }
+    .news_list{
+        font-size: 18px;
+    }
+
+
+  }
+  

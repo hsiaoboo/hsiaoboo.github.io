@@ -56,7 +56,7 @@ $(document).ready(function(){
   });
 
   if($(window).width() < 786){
-    
+   
     // 當視窗寬度小於786px時執行
     $(".nav_ul").mouseover(function(){
       $(".nav").css("display","inline-block");
