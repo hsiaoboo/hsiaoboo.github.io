@@ -342,6 +342,7 @@ html, body {
 #slogan{
   width: auto;
   height: auto;
+ 
   max-width: 100%;
   max-height: 100%;
   left: 50%;
@@ -531,7 +532,7 @@ html, body {
 
 @media screen and (max-width: 1170px) {
   .center_area {
-    height: auto;
+    height: 450;
   }
   .pre_btn {
    
@@ -547,5 +548,11 @@ html, body {
   }
 
 }  
-
+@media screen and (max-width: 867px) {
+  .news_table{
+    
+    min-width: 95%;
+   
+  }
+}
 
