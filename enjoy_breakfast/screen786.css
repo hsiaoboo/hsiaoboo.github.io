@@ -151,7 +151,9 @@
     .combo_area img {
         width: 80%;
     }
-  @media screen and (max-width: 604px) {
+ 
+}
+@media screen and (max-width: 604px) {
     
     .center_area {
         width: 90%;
@@ -197,7 +199,11 @@
     .news_item{
         width: 95%;
     }
-    @media screen and (max-width: 543px) {
+   
+
+
+  }
+   @media screen and (max-width: 543px) {
         .location_area img {
             width: 90%;
             height: auto;
@@ -227,7 +233,3 @@
 
     }
     
-
-
-  }
-  

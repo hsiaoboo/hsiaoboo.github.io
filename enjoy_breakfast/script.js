@@ -58,14 +58,24 @@ $(document).ready(function(){
   if($(window).width() < 786){
    
     // 當視窗寬度小於786px時執行
-    $(".nav_ul").mouseover(function(){
+    $(".nav_list").click(function(){
       $(".nav").css("display","inline-block");
-     
       
+      $(".nav_ul").mouseover(function(){
+
+        $(".nav").css("display","inline-block");
+      });
+
+      $(".nav_ul").mouseout(function(){
+
+        $(".nav").css("display","none");
+        
+
+      });
+    
+
     });
-    $(".nav_ul").mouseout(function(){
-      $(".nav").css("display","none");
-    });
+    
   
   } ;
   
