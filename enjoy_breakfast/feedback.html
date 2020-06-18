@@ -72,21 +72,30 @@
 
   <div class="feedback_area">
     <h1 class="topic">意見回饋</h1>
-
-    <table id="feedback_table" >
-      <tr>
-        <th colspan="2">享，早餐 - 意見回饋表</th>
-        </tr>
-      <tr>
-        <td>表格1</td>
-        <td>表格2</td>
-        </tr>
+    <form action="" method="get">
+      <table id="feedback_table" >
         <tr>
-          
-          <td colspan="2">表格2</td>
+          <th colspan="2">享，早餐 - 意見回饋表</th>
           </tr>
+        <tr>
+          <tr>        
+            <td colspan="2" class="feedback_table_td"><label>主旨:</label> <input  required="required"></td>
+          </tr>
+          <td  class="feedback_table_td">暱稱:<input required="required"></td>
+          <td  class="feedback_table_td">信箱:<input required="required" id="email"  ><p id="emailmeg"></p></td>
+          </tr>
+        <tr>        
+          <td colspan="2"  class="feedback_table_td"  id="text">內文:<br>
+            <input  required="required" placeholder="請敘述您的建議(200字以內)">
+          </td>
+        </tr>
+        <tr>        
+          <td colspan="2"  class="feedback_table_td"  id="submit_btn"><input type="submit"  value="確認送出"/> <br>
+            
+          </td>
+        </tr>
       </table>
-
+    </form>
 
   </div>
 
