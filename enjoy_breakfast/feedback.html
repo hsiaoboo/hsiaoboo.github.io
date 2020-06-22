@@ -11,9 +11,10 @@
 
 </head>
 <body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
  
-
+ 
 
 <!-- 
   <div id="nav_header"></div>
@@ -29,11 +30,11 @@
           <img src="img/logo-2.png">
       </a>
     </div>
-    
+    <div class="nav_list">
+      <img src="img/menu-icon.png">
+    </div>
     <ul class="nav_ul">
-      <div class="nav_list">
-        <img src="img/menu-icon.png">
-      </div>
+     
       <li class="nav nav1">
         <a href="news.html" title="最新消息">最新消息</a>
   
@@ -82,11 +83,11 @@
             <td colspan="2" class="feedback_table_td"><label>主旨:</label> <input  required="required"></td>
           </tr>
           <td  class="feedback_table_td">暱稱:<input required="required"></td>
-          <td  class="feedback_table_td">信箱:<input required="required" id="email"  ><p id="emailmeg"></p></td>
+          <td  class="feedback_table_td">信箱:<input type="email" required="required" id="email"  ><p id="emailmeg"></p></td>
           </tr>
         <tr>        
           <td colspan="2"  class="feedback_table_td"  id="text">內文:<br>
-            <input  required="required" placeholder="請敘述您的建議(200字以內)">
+            <input  required="required" maxlength="200" placeholder="請敘述您的建議(200字以內)">
           </td>
         </tr>
         <tr>        

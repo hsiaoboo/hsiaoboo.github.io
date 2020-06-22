@@ -11,8 +11,25 @@
 
 </head>
 <body>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
- 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+  <script>
+    infoUrl=window.location.href;
+    para=infoUrl.split("#");
+
+    console.log(para);
+
+    if(para[1]==2){
+      if($(window).width() < 786){
+        $('html,body').animate({scrollTop:700}, 333);
+      }else{
+        $('html,body').animate({scrollTop:1100}, 333);
+      }
+        
+    };
+    
+    
+</script>
 
 
 <!-- 
@@ -29,11 +46,11 @@
           <img src="img/logo-2.png">
       </a>
     </div>
-    
+    <div class="nav_list">
+      <img src="img/menu-icon.png">
+    </div>
     <ul class="nav_ul">
-      <div class="nav_list">
-        <img src="img/menu-icon.png">
-      </div>
+     
       <li class="nav nav1">
         <a href="news.html" title="最新消息">最新消息</a>
   

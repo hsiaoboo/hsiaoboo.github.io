@@ -25,31 +25,30 @@ function minus_click_index(){
 
 function resizewindow(){
   $('#nav2_2').click(function(){ 
-    $('html,body').animate({scrollTop:800}, 0);
+    $('html,body').animate({scrollTop:700}, 0);
   });
-
 
   
   $(".nav_list").click(function(){
-    $(".nav").css("display","inline-block");
+    $(".nav_ul").css("display","block");   
     
     $(".nav_ul").mouseover(function(){
-
-      $(".nav").css("display","inline-block");
+      $(".nav_ul").css("display","block");
+     
     });
 
     $(".nav_ul").mouseout(function(){
 
-      $(".nav").css("display","none");
-      
+      $(".nav_ul").css("display","none");  
 
     });
+
   
 
   });
 
 
-}
+};
 
  
 function vailEmail(){
@@ -71,7 +70,7 @@ function vailEmail(){
   }else{
   //正確提示
     
-    $("#emailmeg").html("ok");
+    $("#emailmeg").html("");
   }
   return flag;
 };
@@ -92,12 +91,14 @@ $(document).ready(function(){
 		}
 	}).scroll();
 
+
 // 門市資訊scrollTop跳置about us
   $('#nav4_2').click(function(){ 
 		$('html,body').animate({scrollTop:1160}, 333);
   });
+  
   $('#nav2_2').click(function(){ 
-		$('html,body').animate({scrollTop:1100}, 0  );
+		$('html,body').animate({scrollTop:1100}, 333  );
   });
   
   $("#next_btnn").click(function(){
@@ -107,6 +108,9 @@ $(document).ready(function(){
   $("#pre_btnn").click(function(){
     minus_click_index();
   });
+
+
+
 
   $(window).resize(function() {
     var wdth=$(window).width();
@@ -133,6 +137,6 @@ $(document).ready(function(){
     vailEmail();
   });
   
-  setInterval("add_click_index()",3000);
+  setInterval("add_click_index()",10000);
 
 });
