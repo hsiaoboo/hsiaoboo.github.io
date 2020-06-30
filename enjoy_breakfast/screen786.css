@@ -221,7 +221,7 @@
     }
     @media screen and (max-width: 422px) {
         .nav_list{
-            bottom:84px;
+            bottom:-24px;
         }
         .nav{
             top:-83px
