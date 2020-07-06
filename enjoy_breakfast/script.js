@@ -57,9 +57,9 @@ function vailEmail(){
   var message = "";
   var myreg =/^([\w\.\-]){1,64}\@([\w\.\-]){1,64}$/;
   if(email ==''){
-  message = "郵箱不能為空！";
+  message = "電子信箱不能為空！";
   }else if(!myreg.test(email)){
-  message = "請輸入有效的郵箱地址！";
+  message = "請輸入有效的電子信箱！";
   }else{
   flag = true;
   }
