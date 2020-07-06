@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "enjoy-breakfast-ng"
+    }
+  },
+  "defaultProject": "enjoy-breakfast-ng",
+  "cli": {
+    "analytics": "daec9c62-44ee-499f-a752-e88be1efecf8"
+  }
 }
