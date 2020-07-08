@@ -24,9 +24,6 @@ function minus_click_index(){
 };
 
 function resizewindow(){
-  $('#nav2_2').click(function(){ 
-    $('html,body').animate({scrollTop:700}, 0);
-  });
 
   
   $(".nav_list").click(function(){
@@ -94,11 +91,11 @@ $(document).ready(function(){
 
 // 門市資訊scrollTop跳置about us
   $('#nav4_2').click(function(){ 
-		$('html,body').animate({scrollTop:1160}, 333);
+		$('html,body').animate({scrollTop: $(".about_us").offset().top}, 333  );
   });
   
   $('#nav2_2').click(function(){ 
-		$('html,body').animate({scrollTop:1100}, 333  );
+		$('html,body').animate({scrollTop: $(".combo_area").offset().top}, 333  );
   });
   
   $("#next_btnn").click(function(){
