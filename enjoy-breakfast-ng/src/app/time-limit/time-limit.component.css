@@ -1,0 +1,21 @@
+.time_limit_area img{
+  height: 700px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* border: #3b3b3b 1px solid; */
+  box-shadow:3px 3px 12px gray;
+
+}
+.time_limit_area{
+  margin-bottom: 50px;
+
+
+}
+@media screen and (max-width: 543px) {
+
+  .time_limit_area img {
+      width: 90%;
+      height: auto;
+  }
+
+}

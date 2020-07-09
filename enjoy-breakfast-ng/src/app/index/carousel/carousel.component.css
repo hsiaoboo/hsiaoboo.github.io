@@ -1,0 +1,15 @@
+.carousel{
+  margin-top: 50px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.carousel img{
+  width: 100%;
+}
+@media screen and (max-width: 786px) {
+  .carousel{
+    width: 90%;
+  }
+
+}

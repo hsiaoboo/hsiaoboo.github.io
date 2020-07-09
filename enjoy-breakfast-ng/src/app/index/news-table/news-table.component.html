@@ -1,0 +1,9 @@
+<div class="news_table">
+  <h2>最新消息</h2>
+  <ul class="news_list">
+    <li *ngFor='let news of newsData'  ><span class="news_list_p">{{news.type}}{{news.content}}</span><span class="news_date">{{news.createDate}}</span></li>
+
+  </ul>
+  <div id="more_news"><a >+More</a></div>
+
+</div>
