@@ -1,0 +1,10 @@
+
+<div class="login_area">
+<form id="login_form" [formGroup]="myGroup" >
+    <label>e-mail: <input type="text" formControlName='email'></label><br>
+    <label> password:<input type="password" formControlName='password'></label><br>
+    <p id="error_text" #error_text></p>
+    <button class="login_pag_btn" id="login_btn" (click)="onSubmit()" >登入</button>
+    <button class="login_pag_btn" id="register_btn" (click)="register()" >註冊</button>
+</form> 
+</div>

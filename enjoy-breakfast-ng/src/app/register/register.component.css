@@ -1,0 +1,27 @@
+.register_area{
+    /* height: calc(100vmin - 168px); */
+    height: 790px;
+}
+#register_form{
+    width: 260px;
+    /* margin: 50px; */
+    /* top: 50%; */
+    left: 50%;
+    transform: translateX(-50% );
+    text-align: left;
+}
+#register_form input{
+width: 200px;
+}
+#register_form span{
+    white-space: nowrap;
+    color: red;
+    font-size: 10px;
+}
+#register_form label{
+    white-space: nowrap;
+}
+#register_btn{
+    position: absolute;
+    right:0px;
+}

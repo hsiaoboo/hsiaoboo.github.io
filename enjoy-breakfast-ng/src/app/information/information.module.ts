@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InformationComponent } from './information.component';
-import { LocationComponent } from './location/location.component';
+import { EnjoyLocationComponent } from './enjoy-location/enjoy-location.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 
 
 @NgModule({
   declarations: [
     InformationComponent,
-    LocationComponent,
+    EnjoyLocationComponent,
     AboutUsComponent
   ],
   imports: [
     CommonModule
   ],
-  exports: [
+  exports:[
     InformationComponent
   ]
 })

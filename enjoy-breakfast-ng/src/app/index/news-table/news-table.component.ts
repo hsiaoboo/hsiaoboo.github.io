@@ -4,7 +4,7 @@ import { from } from 'rxjs';
 @Component({
   selector: 'app-news-table',
   templateUrl: './news-table.component.html',
-  styleUrls: ['./news-table.component.css' , '../../app.component.css']
+  styleUrls: ['./news-table.component.css']
 
 })
 export class NewsTableComponent implements OnInit {

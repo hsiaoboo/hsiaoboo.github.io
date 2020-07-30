@@ -20,7 +20,7 @@
 .news_list{
   background-color: #fff;
   border-radius: 10px;
-  height: 85%;
+  height: 82%;
   list-style: none;
   font-size:24px;
   padding:  10px;
@@ -68,7 +68,7 @@
 @media screen and (max-width: 604px) {
   .news_list{
     font-size: 12px;
-    height: 80%;
+    height: 74%;
 
   }
   .news_table{

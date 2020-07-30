@@ -1,3 +1,6 @@
+/* .feedback_area{
+  height: calc(100vmin - 218px) ;
+} */
 #feedback_table {
 
   font-size:16px;
@@ -7,7 +10,7 @@
   left: 50%;
   transform: translateX(-50%);
   margin-bottom:50px;
-
+  height: 100% ;
 }
 
 
@@ -22,7 +25,7 @@
 }
 
 .feedback_table_label {
-  width: 13%;
+  width: 100%;
   padding:5px;
   font-weight: 600;
   text-align: center;

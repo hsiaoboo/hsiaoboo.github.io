@@ -1,1 +1,30 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  margin: 0;
+  position: relative;
+  /* border: #3b3b3b solid 1px; */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 360px;
+
+}
+
+.topic{
+  text-align: center;
+  margin: 50px;
+  font-size: 40px;
+  font-weight: 900;
+
+  text-shadow: 5px 5px 10px gray;
+
+
+}
+
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -22,12 +22,15 @@
   height: 40px;
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
-  top: 50px;
+  
+  transform: translateX(-50%) ;
+  top: 22px;
   /* width: 50%; */
   z-index: -1;
   margin: 0;
   text-align: center;
+  
+
 
 }
 
@@ -37,11 +40,11 @@
   width: 10%;
   height: 40px;
   padding: 0;
-  margin: 15px;
+  margin: 7px 15px 15px 15px;
   letter-spacing: 2px;
   background-color: #fff;
-  border-bottom: solid 5px #3b3b3b;
-
+  border-bottom: solid 3px #3b3b3b;
+  left: 15px;
   box-sizing: border-box;
   border-radius: 5px;
   line-height: 40px;
@@ -158,8 +161,22 @@
   display: none;
 }
 .nav_list img{
-  width: 38px;
+  width: 36px;
   padding: 5px;
+}
+.login{ 
+ text-align: right;
+ padding: 10px 20px 0 0;
+ height: 28px;
+ 
+}
+#login_link{
+  color: #fff;
+  cursor: pointer;
+  width: auto;
+  height: 15px;
+  float: right;
+  text-align: center;
 }
 @media screen and (max-width: 786px) {
   .nav_area {
@@ -171,9 +188,9 @@
     position: relative;
   }
   .nav_ul{
-      width: 40%;
+      width: 35%;
       left:  78%;
-      top:70%;
+      top:83%;
       height: 250px;
       display:none;
       /* border: 1px solid #3b3b3b; */
@@ -186,6 +203,17 @@
       display: inline-block;
       top:-43px;
       left: 0px;
+      border: 5px solid #fff;
+      border-radius: 3px;
+  }
+  .nav:hover{
+    /* color: #4C65BF; */
+    transform: translate(0, 0);
+  
+    
+}
+  .nav a{
+    color: #4C65BF;
   }
 
 
@@ -212,6 +240,17 @@
       height: 50px;
       margin: 5px;
   }
+  .nav_2:hover {
+    background-color: #ffffff;
+    color: #4C65BF;
+    border-radius: 5px;
+  }
+  .nav_2:hover a{
+  
+    color: #4C65BF;
+  
+  
+  }
   .nav_ul_2:before {
       border-bottom : solid 10px transparent;
       border-left: solid 10px #fff;
@@ -230,19 +269,21 @@
   .nav_list{
     display: block;
     bottom:-25px;
+    left: -20px;
+    top:16px;
   }
-  .nav:hover{
-      color: #4C65BF;
-      transform: translate(0, 0);
-  }
+  
 }
 
 @media screen and (max-width: 422px) {
+  .nav_ul{
+    width: 40%;
+  }
   .nav_list{
-      bottom:-24px;
+      bottom:-25px;
   }
   .nav{
-      top:-47px
+      top:-43px
   }
 }
 

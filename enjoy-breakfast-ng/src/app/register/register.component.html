@@ -1,0 +1,28 @@
+<div class="register_area">
+    <h1  class="topic">會員註冊</h1>
+    <form id="register_form" [formGroup]="registerGroup" >
+        <label>姓名 : 
+            <input type="text" formControlName='name' required>  
+            <span *ngIf="registerGroup.get('name').errors?.required">*姓名必須填寫。</span>
+        </label><br>
+        <label>生日 : 
+            <input type="date" formControlName='birthday' required> 
+            <span *ngIf="registerGroup.get('birthday').errors?.required">*生日必須填寫。</span>
+        </label><br>
+        
+        <label>信箱 : 
+            <input type="text" formControlName='email' required>
+            <span *ngIf="registerGroup.get('email').errors?.required">*信箱必須填寫。</span>
+        </label><br>
+        <label>密碼 : 
+            <input type="password" formControlName='password' required>
+            <span *ngIf="registerGroup.get('password').errors?.required">*密碼必須填寫。</span>
+        </label><br>
+        <label>地址 : 
+            <input type="text" formControlName='address' required>
+            <span *ngIf="registerGroup.get('address').errors?.required">*地址必須填寫。</span>
+        </label><br>
+        <!-- <p id="error_text" #error_text></p> -->
+        <button class="login_pag_btn" id="register_btn" type="submit" (click)="onRegister()" >註冊</button>
+    </form> 
+    </div>
